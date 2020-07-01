@@ -8,5 +8,6 @@
 
 ## Sort
 * Bubble Sort
+* Heap Sort
 * Merge Sort
 * Quick Sort
