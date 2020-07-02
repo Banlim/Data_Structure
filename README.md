@@ -3,6 +3,7 @@
 * Binary Search Tree
 * Heap
 * Linked List
+* No Weight Graph
 * Queue
 * Stack
 
