@@ -2,6 +2,56 @@
 public class test {
 
 	public static void main(String[] args) {
+		
+		/* Weight Graph test
+		WeightGraph wg = new WeightGraph();
+		wg.adjustInit(6);
+		wg.insertAdjust(1, 2, 3);
+		wg.insertAdjustSingle(2, 4, 6);
+		wg.insertAdjust(3, 6, 2);
+		wg.insertAdjustSingle(6, 1, 5);
+		wg.printAdjust();
+		System.out.println();
+		wg.matrixInit(6);
+		wg.insertMatrix(1, 2, 3);
+		wg.insertMatrixSingle(2, 4, 6);
+		wg.insertMatrix(3, 6, 2);
+		wg.insertMatrixSingle(6, 1, 5);
+		wg.printMatrix();
+		*/
+		
+		/* No Weight Graph test
+		NoWeightGraph nwg = new NoWeightGraph();
+		nwg.adjustInit(6);
+		nwg.insertAdjust(1, 2);
+		nwg.insertAdjustSingle(2, 4);
+		nwg.insertAdjust(3, 6);
+		nwg.insertAdjustSingle(6, 1);
+		nwg.printAdjustGraph();
+		
+		nwg.matrixInit(6);
+		nwg.insertMatrix(1, 2);
+		nwg.insertMatrixSingle(2, 4);
+		nwg.insertMatrix(3, 6);
+		nwg.insertMatrixSingle(6, 1);
+		nwg.printMatrix();
+		*/
+		
+		/* Binary Search Tree test
+		BinarySearchTree bst = new BinarySearchTree();
+		bst.insertBST(3);
+		bst.insertBST(9);
+		bst.insertBST(7);
+		bst.insertBST(1);
+		bst.insertBST(6);
+		bst.insertBST(2);
+		bst.insertBST(8);
+		bst.printBSTpreOrder(bst.getRoot());
+		bst.deleteBST(6);
+		System.out.println();
+		bst.printBSTpreOrder(bst.getRoot());
+		*/
+		
 		/* Queue test
 		Queue q = new Queue(5);
 		q.enqueue(1);
@@ -74,8 +124,26 @@ public class test {
 		ms.print_sort_arr();
 		*/
 		
+		/* Heap & Heap Sort
+		Heap hp = new Heap();
+		hp.insert_heap(1);
+		hp.insert_heap(3);
+		hp.insert_heap(9);
+		hp.insert_heap(6);
+		hp.insert_heap(5);
+		hp.insert_heap(4);
+		hp.dump();
+		System.out.println();
+		hp.delete_heap();
+		hp.dump();
 		
-		
+		int [] arr = {10, 13, 5, 21, 6, 9, 4, 7};
+		int [] sort_arr = new int[arr.length];
+		sort_arr = hp.heap_sort(arr, arr.length);
+		for(int i = 0; i < sort_arr.length; i++) {
+			System.out.print(sort_arr[i] + " ");
+		}
+		*/
 
 	}
 
