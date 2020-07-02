@@ -6,6 +6,7 @@
 * No Weight Graph
 * Queue
 * Stack
+* Weight Graph
 
 ## Sort
 * Bubble Sort
