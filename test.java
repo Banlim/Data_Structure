@@ -3,6 +3,27 @@ public class test {
 
 	public static void main(String[] args) {
 		
+		/* Hash test
+		Hash hash = new Hash();
+		hash.inputString("abcdefghijklmn");
+		hash.inputString("hello");
+		*/
+		
+		/* Red Black Tree test
+		RedBlackTree rb = new RedBlackTree();
+		rb.createNode(5);
+		rb.createNode(1);
+		rb.createNode(7);
+		rb.createNode(4);
+		rb.createNode(2);
+		rb.createNode(3);
+		rb.createNode(8);
+		rb.createNode(9);
+		rb.createNode(10);
+		rb.printRBTree(rb.getRoot(), 0);
+		rb.preOrderPrintRBTree(rb.getRoot());
+		*/
+		
 		/* Weight Graph test
 		WeightGraph wg = new WeightGraph();
 		wg.adjustInit(6);
