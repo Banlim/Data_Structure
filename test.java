@@ -3,6 +3,18 @@ public class test {
 
 	public static void main(String[] args) {
 		
+		/* trie test
+		Trie t = new Trie();
+		t.init();
+		t.inputString("apple");
+		t.inputString("appe");
+		t.inputString("air");
+		t.inputString("airplane");
+		t.printSearchAllString("ai");
+		t.printSearchAllString("appl");
+		*/
+		
+		
 		/* Hash test
 		Hash hash = new Hash();
 		hash.inputString("abcdefghijklmn");
