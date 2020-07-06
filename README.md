@@ -1,6 +1,7 @@
 ## Data_Structure
 
 * Binary Search Tree
+* Hash
 * Heap
 * Linked List
 * No Weight Graph
