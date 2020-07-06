@@ -7,6 +7,7 @@
 * No Weight Graph
 * Queue
 * Stack
+* Trie
 * Weight Graph
 
 ## Sort
