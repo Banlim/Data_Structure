@@ -3,6 +3,11 @@ public class test {
 
 	public static void main(String[] args) {
 		
+		/* selection sort test
+		SelectionSort ss  = new SelectionSort();
+		ss.run();
+		*/
+		
 		/* trie test
 		Trie t = new Trie();
 		t.init();
