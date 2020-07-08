@@ -3,6 +3,11 @@ public class test {
 
 	public static void main(String[] args) {
 		
+		/* counting sort test
+		CountingSort cs = new CountingSort();
+		cs.run();
+		*/
+		
 		/* insertion sort test
 		InsertionSort is = new InsertionSort();
 		is.run();
@@ -179,7 +184,6 @@ public class test {
 		System.out.println();
 		hp.delete_heap();
 		hp.dump();
-		
 		int [] arr = {10, 13, 5, 21, 6, 9, 4, 7};
 		int [] sort_arr = new int[arr.length];
 		sort_arr = hp.heap_sort(arr, arr.length);
