@@ -12,6 +12,7 @@
 
 ## Sort
 * Bubble Sort
+* Counting Sort
 * Heap Sort
 * Insertion Sort
 * Merge Sort
