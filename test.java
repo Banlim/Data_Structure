@@ -3,6 +3,31 @@ public class test {
 
 	public static void main(String[] args) {
 		
+		/* DFS test -> AdjustList
+		DFS dfs = new DFS();
+		NoWeightGraph nwg = new NoWeightGraph();
+		nwg.adjustInit(6);
+		nwg.insertAdjust(1, 2);
+		nwg.insertAdjustSingle(2, 4);
+		nwg.insertAdjust(3, 6);
+		nwg.insertAdjustSingle(6, 1);
+		nwg.printAdjustGraph();
+		System.out.println();
+		dfs.initDfsAdjust(nwg.getAdjustList());
+		*/
+		
+		/* DFS test -> matrix
+		DFS dfs = new DFS();
+		NoWeightGraph nwg = new NoWeightGraph();
+		nwg.matrixInit(6);
+		nwg.insertMatrix(1, 2);
+		nwg.insertMatrixSingle(2, 4);
+		nwg.insertMatrix(3, 6);
+		nwg.insertMatrixSingle(6, 1);
+		nwg.printMatrix();
+		dfs.initDfsMatrix(nwg.getMatrixList());
+		*/
+		
 		/* counting sort test
 		CountingSort cs = new CountingSort();
 		cs.run();
