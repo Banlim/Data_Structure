@@ -1,5 +1,4 @@
 ## Data_Structure
-
 * Binary Search Tree
 * Hash
 * Heap
@@ -9,6 +8,9 @@
 * Stack
 * Trie
 * Weight Graph
+
+## Algorithm
+* DFS
 
 ## Sort
 * Bubble Sort
