@@ -3,6 +3,34 @@ public class test {
 
 	public static void main(String[] args) {
 		
+		/* BFS test -> AdjustList
+		BFS bfs = new BFS();
+		NoWeightGraph nwg = new NoWeightGraph();
+		nwg.adjustInit(6);
+		nwg.insertAdjust(1, 2);
+		nwg.insertAdjust(2, 4);
+		nwg.insertAdjust(3, 6);
+		nwg.insertAdjust(6, 1);
+		nwg.insertAdjust(5, 3);
+		nwg.printAdjustGraph();
+		System.out.println();
+		bfs.initBfsAdjust(nwg.getAdjustList());
+		*/
+		
+		/* BFS test -> matrix
+		BFS bfs = new BFS();
+		NoWeightGraph nwg = new NoWeightGraph();
+		nwg.matrixInit(6);
+		nwg.insertMatrix(1, 2);
+		nwg.insertMatrix(2, 4);
+		nwg.insertMatrix(3, 6);
+		nwg.insertMatrix(6, 1);
+		nwg.insertMatrix(5, 3);
+		nwg.printMatrix();
+		System.out.println();
+		bfs.initBfsMatrix(nwg.getMatrixList());
+		*/
+		
 		/* DFS test -> AdjustList
 		DFS dfs = new DFS();
 		NoWeightGraph nwg = new NoWeightGraph();
