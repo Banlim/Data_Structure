@@ -10,6 +10,7 @@
 * Weight Graph
 
 ## Algorithm
+* BFS
 * DFS
 
 ## Sort
